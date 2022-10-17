@@ -1,0 +1,610 @@
+ /*-------body---------*/
+body {
+  background-color: #f8f8f8;
+  width: 100%;
+}
+/*-------Navigation Style---------*/
+
+  header {
+      display: flex;
+    display: inline-flex;  
+    justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 25px 0px 40px 0;
+  
+}
+nav {
+display: inline-flex;
+justify-content: center;
+      align-content: center;
+      width:100%;
+
+      font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+} 
+#firstNav {
+  width: 100%;
+  margin-left: 60px;
+}
+#endNav {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 5%;
+  margin-right: 70px;
+
+}
+.Amber-DiPietro {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  
+}
+ 
+ /*-------Hero Space---------*/
+ .hero {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        padding-top:0px;
+   }
+    .intro {
+    width: 100%;
+      max-width: 486px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+    gap: 12px;
+    margin: 50px 0px 140px 0px;
+    padding-right: 0px;
+  }
+  .content {
+    width: 100%;
+    height: auto;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0;
+  }
+     .UIUX-Designer {
+    height: auto;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #070055;
+  }
+  .headerImage {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: flex;
+    float: right;
+    top: 0px;
+    margin: -60px 0px 0px 0px;
+    
+  }
+    .Title {
+    width: 100%;
+      max-width: 486px;
+    height: auto;
+    flex-grow: 0;
+    font-family: PlayfairDisplay;
+    font-size: 58px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #25282b;
+  }
+  
+  .Title .text-style-1 {
+    color: #ffa800;
+  }
+  
+    .introParagraph {
+   width: 100%;
+      max-width: 486px;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #515151;
+  }
+  /*-------Buttons---------*/
+  .buttons {
+    max-width: 243px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0px;
+   
+  }
+  
+    
+  .button-primary {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+   padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background-color: #070055;
+    cursor:pointer;
+  }
+  .button-secondary {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 22px 7px 22px;
+    border-radius: 8px;
+    border: solid 2px #070055;
+    cursor:pointer;
+
+  }
+ 
+    .linkedIn {
+      display: flex;
+    width: 100%;
+    height: auto;
+    flex-grow: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    text-align: center;
+    color: #070055;
+  }
+  .buttonP {
+    width: 100%;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+
+  .Overview {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+  
+
+  }
+
+  .projectText {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: PlayfairDisplay;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+    }
+.overviewParagraph {
+  width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+
+}
+.socialblue {
+  width: 100%;
+  height: 450px;
+  display:flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0px;
+  margin: 80px 0px 40px 0px;
+  background-color: rgba(0, 75, 150, 0.15);
+  }
+
+  .col {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px;
+    font-family: PlayfairDisplay;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+
+  }
+  p {
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #25282b;
+
+  }
+
+  ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    justify-content: flex-start;
+    align-self: flex-start;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #25282b;
+    flex-direction: column;
+    text-align: left;
+
+  }
+  .processHeader {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    font-family: PlayfairDisplay;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+    padding-bottom: 40px;
+    }
+    
+  .img-fluid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+  }
+
+  .media {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 80px;
+  
+  }
+
+h5 {
+  width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px;
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+
+
+}
+.media1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+ .media-body1 {
+  padding-left: 60px;
+ }
+
+ h4 {
+  width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+ }
+ .media3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+.media4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 10px 80px 80px 80px;
+
+}
+.character {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 70%;
+  padding-bottom: 20px;
+}
+
+.c1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+   padding: 8px 0px 8px 0px;
+    border-radius: 8px;
+    background-color: #070055;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+}
+.redlineP2 {
+  font-style: italic;
+}
+
+.media-body4 {
+  padding-top: 100px;
+  align-content: center;
+}
+
+.media5 {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+
+.media6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 10px 80px 80px 80px;
+
+}
+
+.media7 {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+.media8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+
+.media9 {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+
+.media10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+
+.media11 {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+
+.media12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+.media13 {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+.align-self-center13 {
+  width: 100%;
+  max-width: 550px;
+}
+
+.media14 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+
+.media15 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+
+.media16 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+
+.align-self-center16 {
+  width: 100%;
+  max-width: 300px;
+}
+
+.media17 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
