@@ -1,9 +1,11 @@
  /*-------body---------*/
-body {
+ body {
   background-color: #f8f8f8;
   width: 100%;
+
+
 }
-/*-------Navigation Style---------*/
+/*-------Navigation---------*/
 
   header {
       display: flex;
@@ -210,13 +212,14 @@ justify-content: center;
     color: #fff;
   }
 
+  /*----------overview-------------*/
   .Overview {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: flex-start;
     align-content: center;
-    align-items: center;
+    
   
 
   }
@@ -237,14 +240,14 @@ justify-content: center;
     text-align: center;
     color: #25282b;
     }
-.overviewParagraph {
-  width: 100%;
+
+    .overviewParagraph {
+  width: 70%;
     height: auto;
-    display: flex;
     justify-content: center;
+    align-content: center;
     padding-top: 15px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-bottom: 80px;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -254,43 +257,41 @@ justify-content: center;
     letter-spacing: normal;
     text-align: center;
     color: #25282b;
-
 }
+
+
+
+    /*----------summary-------------*/
+
 .socialblue {
   width: 100%;
-  height: 450px;
-  display:flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  padding: 0px;
-  margin: 80px 0px 40px 0px;
+  height: auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin: 0px 0px 0px 0px;
   background-color: rgba(0, 75, 150, 0.15);
   }
 
-  .col {
+  
+
+ 
+
+  p {
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 30px;
-    font-family: PlayfairDisplay;
-    font-size: 38px;
-    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    text-align: center;
+    text-align: left;
     color: #25282b;
-
-  }
-  p {
-    width: 75%;
+}
+  .mrp {
+    width: 80%;
     height: auto;
-    display: flex;
-    justify-content: flex-start;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -302,14 +303,10 @@ justify-content: center;
     color: #25282b;
 
   }
-
   ul{
     width: 100%;
     height: auto;
-    display: flex;
     font-family: 'Nunito Sans', sans-serif;
-    justify-content: flex-start;
-    align-self: flex-start;
     font-size: 20px;
     font-weight: 500;
     font-stretch: normal;
@@ -317,14 +314,19 @@ justify-content: center;
     line-height: 1.5;
     letter-spacing: normal;
     color: #25282b;
-    flex-direction: column;
     text-align: left;
 
   }
+  /*----------process-------------*/
+  .container{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    }
+  
   .processHeader {
     width: 100%;
     height: auto;
-    display: flex;
     justify-content: center;
     padding-top: 0px;
     font-family: PlayfairDisplay;
@@ -337,32 +339,34 @@ justify-content: center;
     text-align: center;
     color: #25282b;
     padding-bottom: 40px;
+    padding-top: 50px;
     }
-    
-  .img-fluid {
+
+  .processImage {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-self: center;
-    align-items: center;
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 40px;
+
   }
 
-  .media {
-    width: 100%;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    padding: 80px;
+  /*----------Content Section-------------*/
+ .media { 
+  width: 80%;
+  gap: 50px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   
-  }
+ }
 
-h5 {
+ 
+  
+ .Navimg {
+  width:100%;
+  max-width: 550px;
+}
+
+h4 {
   width: 100%;
     height: auto;
     display: flex;
@@ -380,21 +384,8 @@ h5 {
 
 
 }
-.media1 {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
 
-}
- .media-body1 {
-  padding-left: 60px;
- }
-
- h4 {
+h5 {
   width: 100%;
     height: auto;
     display: flex;
@@ -409,202 +400,49 @@ h5 {
     text-align: center;
     color: #25282b;
  }
- .media3 {
-  width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
 
-}
-.media4 {
+ .character {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 10px 80px 80px 80px;
-
-}
-.character {
-  display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 10px;
-  width: 70%;
+  width: 100%;
   padding-bottom: 20px;
 }
 
 .c1 {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    flex-grow: 0;
-    display: flex;
-    justify-content: center;
-    align-content:center;
-    align-items: center;
-   padding: 8px 0px 8px 0px;
-    border-radius: 8px;
-    background-color: #070055;
-    color: #fff;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
-}
-.redlineP2 {
-  font-style: italic;
-}
-
-.media-body4 {
-  padding-top: 100px;
-  align-content: center;
-}
-
-.media5 {
   width: 100%;
+  max-width: 100px;
+  height: auto;
+  text-align: center;
+  flex-grow: 0;
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
-  align-content: center;
+  align-content:center;
   align-items: center;
-  padding: 80px;
-
+ padding: 8px 0px 8px 0px;
+  border-radius: 8px;
+  background-color: #070055;
+  color: #fff;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+}
+.p1 {
+font-style: italic;
 }
 
-.media6 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 10px 80px 80px 80px;
-
-}
-
-.media7 {
-  width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-
-}
-.media8 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-
-}
-
-.media9 {
-  width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-
-}
-
-.media10 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-
-}
-
-.media11 {
-  width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-
-}
-
-.media12 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-
-}
-.media13 {
-  width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-
-}
-.align-self-center13 {
+.hifiImage {
   width: 100%;
   max-width: 550px;
 }
 
-.media14 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-
+.mobile1 {
+  width: 60%;
 }
-
-.media15 {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-
-}
-
-.media16 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-
-}
-
-.align-self-center16 {
-  width: 100%;
-  max-width: 300px;
-}
-
-.media17 {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-
-}
+  
