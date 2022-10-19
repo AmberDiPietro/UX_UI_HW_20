@@ -1,36 +1,57 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link href="CSS/styles.css" rel="stylesheet" type="text/css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Nunito+Sans&family=Open+Sans:ital,wght@0,500;1,400;1,500&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Nunito+Sans&family=Open+Sans:ital,wght@0,500;1,400;1,500&display=swap"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+  
   <title>Department of Education Case Study </title>
 </head>
 
 <body>
-  <!--Navigation-->
-  <header>
-    <nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+    <a class="navbar-brand me-auto">Amber DiPietro</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="https://amberdipietro.github.io/UX_UI_HW_19/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Tomorrows Rainbow</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">MyDIY</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Dept of Education</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End navigation bar -->
 
-      <div ID="firstNav"><span class="Amber-DiPietro">
-          Amber DiPietro
-        </span></div>
-      <div ID="endNav">
-        <div><span class="Home">
-            <b> Work</b>
-          </span></div>
-        <div><span class="Contact">
-            Resume
-          </span></div>
-      </div>
-
-    </nav>
-  </header>
   <!--Hero Section-->
   <section class="hero">
     <img src="Assets/doeHeaderImage.png" alt="iphone and laptop" srcset="Assets/doeHeaderImage.png 2x,
@@ -86,7 +107,7 @@
             </div>
             <div class="col">
               <p>
-              <ul>
+              <ul class="roles">
                 <li>User interviews & research</li>
                 <li>User personas, storyboarding</li>
                 <li>Redling, card sorting & site map</li>
@@ -119,7 +140,8 @@
       <br><br>Some key opportunities found:
     </p>
     <p>
-    <ul>
+    <ul class="roles"
+    >
       <li>Inconsistent font styles and sizes</li>
       <li>Overwhelming content flow</li>
       <li> Navigation</li>
@@ -128,7 +150,7 @@
     </ul>
     </p>
 </div>
-    <img src="Assets/HeuroEval.png" class="img-fluid" alt="...">
+    <img src="Assets/HeuroEval.png" class="img-fluid heuro" alt="...">
     </div>
 
 
@@ -200,7 +222,7 @@
         <br><br>High priority changes included:
       </p>
       <p>
-      <ul>
+      <ul class="roles">
         <li>Legibility of text</li>
         <li>Broken links</li>
         <li> Navigation confusion</li>
@@ -234,7 +256,7 @@
         <br><br>This site map was further updated to:
       </p>
       <p>
-      <ul>
+      <ul class="roles">
         <li>Combine ED offices and social links on the main contact page</li>
         <li>A drop down of the important pages in the main navigation rather than just in the footer</li>
       </ul>
@@ -265,7 +287,7 @@
         <br><br>This helped highlight focus points for the government site:
       </p>
       <p>
-      <ul>
+      <ul class="roles">
         <li>Guidance resources</li>
         <li>Grant and inancing options</li>
         <li>Scholarship</li>
@@ -298,7 +320,7 @@
         added to accentuate content.
       </p>
       <p>
-      <ul>
+      <ul class="roles">
         <li>Links were made consistent</li>
         <li>Easy access to important pages</li>
         <li>Clear headers and scholarship CTA</li>
@@ -330,7 +352,7 @@
         best placement for the graphics and content.
       </p>
       <p class="mb-0">
-      <ul>
+      <ul class="roles">
         <li>Navigation placement</li>
         <li>Sidebar for quick links</li>
         <li>Card design</li>
@@ -376,7 +398,7 @@
         <br><br> High priorities included:
       </p>
       <p class="mb-0">
-      <ul>
+      <ul class="roles">
         <li>Mobile home button</li>
         <li>Missing headline</li>
         <li>Icon confusion</li>
@@ -391,8 +413,14 @@
  
 </body>
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+ integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+ crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+ integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+ crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+ integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+ crossorigin="anonymous"></script>
 </html>
