@@ -172,6 +172,10 @@
     background-color: #070055;
     cursor:pointer;
   }
+
+ .buttontest {
+  color:#070055;
+ }
   .button-secondary {
     width: 100%;
     height: auto;
@@ -200,8 +204,10 @@
     line-height: 1.7;
     letter-spacing: normal;
     text-align: center;
-    color: #070055;
+
+
   }
+  a { text-decoration: none; }
   .buttonP {
     width: 100%;
     height: auto;
@@ -216,12 +222,14 @@
     color: #fff;
   }
 
+  .buttontest {
+    border: none;
+  }
   /*----------overview-------------*/
   .Overview {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: flex-start;
     align-content: center;
     
   
@@ -276,9 +284,14 @@
   background-color: rgba(0, 75, 150, 0.15);
   }
 
-  
+.fixme {
+  padding-left: 13%;
 
+}
  
+.SB {
+  background-color: transparent !important;
+}
 
   p {
     width: 100%;
@@ -294,7 +307,7 @@
     color: #25282b;
 }
   .mrp {
-    width: 80%;
+    width: 100%;
     height: auto;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
@@ -352,6 +365,10 @@
     padding-right: 80px;
     padding-bottom: 40px;
 
+  }
+
+  .processSection {
+    background-color: transparent !important;
   }
 
   /*----------Content Section-------------*/
@@ -456,4 +473,381 @@ font-style: italic;
 .mobile1 {
   width: 60%;
 }
+
+
+
+.FinalIterations {
+  width: 100%;
+  height: auto;
+  align-content: center;
+  
+
+
+}
+
+.finalText {
+  width: 100%;
+  height: auto;
+  justify-content: center!important;
+  align-content: center !important;
+  padding-top: 30px;
+  font-family: PlayfairDisplay;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #25282b;
+  }
+
+  .finalParagraph {
+width: 70%;
+  height: auto;
+  justify-content: center !important; 
+  align-content: center !important;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #25282b;
+}
  
+.finalGif { 
+  width: 100%;
+  gap: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center !important; 
+  align-content: center !important;
+ }
+
+ .empathyPic {
+  width:100%;
+  max-width: 400px;
+ }
+
+ .finalParagraph {
+  padding-bottom: 5%;
+ }
+ 
+
+ 
+  /*----------Contact Section----------*/
+  
+  .contactSection {
+    width: 65%;
+    height: auto;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    padding: 0px 50px 50px 50px;
+  }
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-top: 0px;
+    padding-right: 25px; 
+    
+  }
+  .footerHeader {
+    align-self: center;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    font-family: PlayfairDisplay;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+  }
+  .connectP {
+    width: 480px;
+    height: 80px;
+    display: flex;
+    flex-grow: 0;
+    padding-right: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1f1f1f;
+  }
+  .contactMe {
+    display: flex;
+    width: 216px;
+    height: 55px;
+    flex-grow: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.81);
+  }
+  
+  .Contact-Information {
+    display: flex;
+    justify-content: center;
+    width: 216px;
+    height: 33px;
+    flex-grow: 0;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.81);
+  }
+  form
+  {
+    position: absolute;
+    margin: 120px 0 0 950px;
+    width: 500px;
+    padding: 0px 0px 0px 0px;
+  }
+    input {
+      width: 600px;
+      height: 40px;
+      flex-grow: 0;
+      border-radius: 8px;
+      border: solid 1px #c8cbd2;
+      background-color: #fff;
+    }
+    label {
+      display: flex;
+      width: 400px;
+      height: 27px;
+      padding: 0 10px 5px 0;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #25282b;
+    }
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+      width: 100%; /* Full width */
+      padding: 12px; /* Some padding */ 
+      font-family: 'Nunito Sans', sans-serif;
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 16px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+    
+    /* Style the submit button with a specific background color etc */
+    input[type=send] {
+      background-color: #fdc435;
+      width: 70px;
+      height: 30px;
+      font-family: 'Nunito Sans', sans-serif;
+      text-align: center;
+      font-weight: 600;
+      color: rgb(37, 36, 36);
+      padding: 5px 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    /* Add a background color and some padding around the form */
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      bottom: 140px;
+    }
+  
+  
+    footer {
+      display: flex;
+      
+      justify-content: center;
+      align-items:center;
+      align-content: center;
+      flex-direction: column;
+  width: 100%;
+  height: 100px;
+  margin: 200px 0 0 0;
+    }
+  
+  
+
+ 
+  .email {
+    width: 100%;
+  height: auto;
+  flex-direction: column;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1f1f1f;
+    padding-left: 0px;
+  }
+  .location {
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1f1f1f;
+    padding-top: 0px;
+    
+  }
+  .phone {
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1f1f1f;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  #emailLine {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 10px;
+  
+
+  }
+  #locationLine {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 10px;
+    padding-top: 20px;
+  
+
+  }
+  #phoneLine {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 10px;
+    padding-top: 20px;
+  }
+  
+  
+    /*social icons*/
+
+    #endGame {
+      width:100%;
+      background-color:#1f1f1f;
+    }
+  .social {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .envelope {
+    width: 30px;
+  height: 30px;
+  flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  }
+  .linkedinIcon {
+    width:30px;
+  height: 30px;
+  flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  
+  }
+  .instagramIcon {
+    width: 30px;
+  height: 30px;
+  flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  }
+  
+  /*Footer end*/
+
+  .Line-1 {
+    width: 100%;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #999;
+  }
+  .Ambers-Portfolio-2022 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+    flex-grow: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color:#e1e0e0;
+  }
