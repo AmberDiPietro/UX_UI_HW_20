@@ -508,7 +508,7 @@ width: 70%;
   justify-content: center !important; 
   align-content: center !important;
   padding-top: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 1%;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -534,7 +534,21 @@ width: 70%;
   max-width: 400px;
  }
 
- .finalParagraph {
+ .finalParagraph2 {
+  width: 70%;
+  height: auto;
+  justify-content: center !important; 
+  align-content: center !important;
+  padding-top: 15px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #25282b;
   padding-bottom: 5%;
  }
  
