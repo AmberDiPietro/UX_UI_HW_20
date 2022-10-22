@@ -208,6 +208,7 @@
 
   }
   a { text-decoration: none; }
+  a:hover { text-decoration: none; }
   .buttonP {
     width: 100%;
     height: auto;
