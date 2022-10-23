@@ -371,6 +371,8 @@
   .processSection {
     background-color: transparent !important;
   }
+  #img1 {display: block;}
+  #img2 {display: none;}
 
   /*----------Content Section-------------*/
  .media { 
@@ -732,6 +734,9 @@ background-color:#1f1f1f;
     text-align: left;
     color: #25282b;
    }
+
+   #img1 {display: none;}
+   #img2 {display: block;}
   
    }
   
