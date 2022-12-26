@@ -571,9 +571,15 @@ width: 70%;
 
 .contactp {
   align-self: center;
+
+  
+}
+.formBox {
+  margin-right: 15%;
+  margin-left: 15%;
 }
 input {
-  width: 600px;
+  width: 75%;
   height: 40px;
   flex-grow: 0;
   border-radius: 8px;
@@ -609,7 +615,7 @@ input[type=text], select, textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=send] {
+input[type=submit] {
   background-color: #fdc435;
   width: 70px;
   height: 30px;
@@ -618,7 +624,7 @@ input[type=send] {
   align-self: flex-end;
   font-weight: 600;
   color: rgb(37, 36, 36);
-  padding: 5px 10px;
+  padding: 5px 10px 5px, 10px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
